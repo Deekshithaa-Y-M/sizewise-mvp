@@ -126,7 +126,7 @@ elif st.session_state.page == "recommend":
     st.button("← Back to Home", on_click=go_to, args=("home",))
     st.divider()
 
-    # ── 2️⃣  User Measurements ────────────────
+    # ── 2️.  User Measurements ────────────────
     st.subheader("📏 Your Body Measurements")
     col1, col2 = st.columns(2)
     with col1:
