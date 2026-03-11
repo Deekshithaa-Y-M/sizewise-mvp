@@ -166,7 +166,7 @@ elif st.session_state.page == "recommend":
                 "garment's fabric stretch and your personal preference."
             )
 
-            # ── 7️⃣  Metric Dashboard ─────────
+            # ── 7️  Metric Dashboard ─────────
             st.divider()
             st.subheader("📊 Quick Insights")
             m1, m2, m3 = st.columns(3)
