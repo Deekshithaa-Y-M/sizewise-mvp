@@ -119,7 +119,7 @@ if st.session_state.page == "home":
     st.button("🚀 Start Size Recommendation", on_click=go_to, args=("recommend",), type="primary")
 
 # ══════════════════════════════════════════════
-# 2️⃣–6️⃣  RECOMMENDATION PAGE
+# 2️⃣–6️  RECOMMENDATION PAGE
 # ══════════════════════════════════════════════
 elif st.session_state.page == "recommend":
     st.title("👕 SizeWise")
