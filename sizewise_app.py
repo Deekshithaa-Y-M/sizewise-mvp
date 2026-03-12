@@ -145,7 +145,7 @@ elif st.session_state.page == "recommend":
 
     st.divider()
 
-    # ── 4️⃣  Display Size Chart ───────────────
+    # ── 4️  Display Size Chart ───────────────
     with st.expander("📐 View Size Chart"):
         display_df = SIZE_CHARTS[garment].copy()
         display_df["Chest (cm)"] = display_df["Chest_Min"].astype(str) + " – " + display_df["Chest_Max"].astype(str)
